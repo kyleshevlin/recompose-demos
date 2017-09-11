@@ -1,0 +1,7 @@
+//////////////////////////////
+// Functions
+//////////////////////////////
+
+@function bs($factor: 1) {
+  @return $s-base-spacing * $factor;
+}

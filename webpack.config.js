@@ -60,7 +60,7 @@ module.exports = env => {
       new ExtractTextPlugin('style.css'),
       new HtmlWebpackPlugin({
         template: './templates/index.ejs',
-        title: 'Recompose Demo'
+        title: 'Recomposello'
       })
     ]
   }

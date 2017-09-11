@@ -1,11 +1,12 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import store from '../store'
-import Greeting from './Greeting'
+import Header from './Header'
 
-const App = () =>
+const App = () => (
   <Provider store={store}>
-    <Greeting message="Recompose Demo!" />
+    <Header />
   </Provider>
+)
 
 export default App

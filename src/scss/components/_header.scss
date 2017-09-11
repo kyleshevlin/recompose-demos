@@ -1,0 +1,29 @@
+//////////////////////////////
+// Header
+//////////////////////////////
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+
+  &-heading {
+    display: inline-block;
+    margin-top: bs(.5);
+    margin-bottom: bs(.5);
+  }
+
+  &-boards {
+
+    &-list {
+      width: 320px;
+      position: absolute;
+      top: 100%;
+
+      &-wrap {
+        position: relative;
+      }
+    }
+  }
+}
