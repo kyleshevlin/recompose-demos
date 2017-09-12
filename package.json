@@ -12,7 +12,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "build": "webpack -d --env.dev",
-    "build:prod": "webpack -p --env.prod",
+    "build:prod": "NODE_ENV=production webpack -p --output-path=\"./docs\" --env.prod",
     "format": "prettier --write --no-semi --single-quote --print-width=120 --parser=flow --tab-width=2 \"src/js/**/*.{js,jsx}\"",
     "lint": "eslint **/*.{js,jsx} --quiet",
     "start": "webpack-dev-server --env.dev --hot"
