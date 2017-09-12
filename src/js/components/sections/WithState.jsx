@@ -3,7 +3,7 @@ import CollapsibleSection from '../CollapsibleSection'
 import WithStateExample from '../examples/WithStateExample'
 
 const WithState = () => (
-  <CollapsibleSection isInitiallyCollapsed={false} heading={'withState()'}>
+  <CollapsibleSection heading={'withState()'}>
     <div>
       <p>
         The <code>withState</code> higher order component allows you to add state to SFCs. The state
