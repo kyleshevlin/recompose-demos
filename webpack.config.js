@@ -8,9 +8,11 @@ module.exports = env => {
     context: path.join(__dirname, 'src'),
     entry: './js/Entry.jsx',
     output: {
-      path: path.join(__dirname, 'build'),
+      path: env.prod
+        ? path.join(__dirname, 'docs')
+        : path.join(__dirname, 'build'),
       filename: 'bundle.js',
-      publicPath: '/'
+      publicPath: env.prod ? '/recompose-demos/' : '/'
     },
     resolve: {
       extensions: ['.js', '.jsx']
