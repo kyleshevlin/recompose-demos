@@ -1,11 +1,8 @@
 import React from 'react'
-import HeaderBoards from './HeaderBoards'
 
 const Header = () => (
   <header className="header">
-    <HeaderBoards />
-    <h1 className="header-heading">Recomposello</h1>
-    <button onClick={() => {}}>Account</button>
+    <h1 className="header-heading">Learn You Recompose</h1>
   </header>
 )
 

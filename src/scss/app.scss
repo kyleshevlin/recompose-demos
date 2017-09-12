@@ -14,3 +14,26 @@
 @import
   'components/header'
 ;
+
+.User {
+  position: relative;
+  background: lightblue;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.StatusList {
+  background: #eee;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.Tooltip {
+  position: absolute;
+  bottom: 100%;
+  width: 80px;
+  background: #666;
+  color: white;
+  text-align: center;
+}

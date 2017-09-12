@@ -31,12 +31,12 @@ module.exports = env => {
           loader: 'babel-loader',
           exclude: /node_modules/
         },
-        {
-          test: /\.jsx?$/,
-          loader: 'eslint-loader',
-          enforce: 'pre',
-          exclude: /node_modules/
-        },
+        // {
+        //   test: /\.jsx?$/,
+        //   loader: 'eslint-loader',
+        //   enforce: 'pre',
+        //   exclude: /node_modules/
+        // },
         {
           test: /\.scss$/,
           loader: ExtractTextPlugin.extract({
@@ -60,7 +60,7 @@ module.exports = env => {
       new ExtractTextPlugin('style.css'),
       new HtmlWebpackPlugin({
         template: './templates/index.ejs',
-        title: 'Recomposello'
+        title: 'Learn You Recompose'
       })
     ]
   }
