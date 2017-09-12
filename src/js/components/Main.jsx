@@ -5,6 +5,8 @@ import WithReducer from './sections/WithReducer'
 import Lifecycle from './sections/Lifecycle'
 import Pure from './sections/Pure'
 import MapAndWithProps from './sections/MapAndWithProps'
+import BranchAndRenderComponent from './sections/BranchAndRenderComponent'
+import WeWillDoItLive from './sections/WeWillDoItLive'
 
 const Main = () => (
   <main className="main">
@@ -14,6 +16,8 @@ const Main = () => (
     <Lifecycle />
     <Pure />
     <MapAndWithProps />
+    <BranchAndRenderComponent />
+    <WeWillDoItLive />
   </main>
 )
 
